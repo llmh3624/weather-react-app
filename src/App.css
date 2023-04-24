@@ -1,13 +1,27 @@
-.App {
+.Weather {
   font-family: sans-serif;
   text-align: center;
+  max-width: 300px;
+  min-height: fit-content;
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 li {
   list-style: none;
   margin: 5px;
+  align-items: center;
 }
 
-p{
+form {
+  margin: 10px;
+}
+
+p {
   font-size: 12px;
+  text-align: center;
 }
