@@ -9,17 +9,25 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 5px;
-  
-  
 }
 
 .App {
   max-width: 700px;
   margin: 40px auto;
-  
 }
 
 .App footer {
-  font-size: 15px;
+  font-size: 13px;
   margin: 15px 0;
+  text-align: center;
+}
+
+.App a {
+  color: #49a0cf;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.App a:hover {
+  color: #d9367d;
 }
