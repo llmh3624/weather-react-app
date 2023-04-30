@@ -9,20 +9,28 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://playful-lebkuchen-8def1d.netlify.app/"
+            href="https://heroic-palmier-0df45c.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Mel Lowe
+            Laura Moragues
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
-            href="https://github.com/Mel-Lowe/react-weather-app"
+            href="https://github.com/llmh3624/weather-react-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced
+            GitHub
           </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://astounding-sfogliatella-895387.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>

@@ -1,14 +1,41 @@
 .weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #585c5e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid #e8a0bf;
   border-radius: 5px;
   padding: 16px;
+  background-color: #fdf4f5;
 }
+
+header {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #d9367d;
+}
+
+.form-control {
+  border: 2px solid #c0dbea;
+  color: #c0dbea;
+}
+
+.search-button {
+  background-color: #49a0cf;
+  border: 2px solid #49a0cf;
+}
+
+.search-button:hover {
+  background-color: #e8a0bf;
+  border: 2px solid #996ca5;
+  animation: forwards;
+}
+
 .weather h1 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 30px 0 5px 0;
+  color: #ff4193;
 }
 
 .weather ul {
@@ -20,7 +47,7 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-  color: #9c9b9e;
+  color: #996ca5;
   list-style: none;
 }
 
@@ -32,7 +59,7 @@
 }
 
 .weather .units {
-  color: black;
+  color: #996ca5;
   font-size: 14px;
   position: relative;
   top: -34px;
