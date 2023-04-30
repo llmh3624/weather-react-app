@@ -1,21 +1,30 @@
+import Weather from "./Weather";
 import "./App.css";
-import SearchEngine from "./WeatherSearch";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div className="Weather">
-        <h1>Weather App</h1>
-        <SearchEngine />
+      <div className="container">
+        <Weather defaultCity="Palma de Mallorca" />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://playful-lebkuchen-8def1d.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Mel Lowe
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Mel-Lowe/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced
+          </a>{" "}
+        </footer>
       </div>
-      <p>
-        <a href="https://github.com/llmh3624/weather-react-app" target="_blank">
-          Open-source code
-        </a>{" "}
-        by Laura Moragues
-      </p>
     </div>
   );
 }
-
-export default App;
